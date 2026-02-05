@@ -1,0 +1,147 @@
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ ./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# copy 5 5 $HOME/myexpos/root_after.txt
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cd ..
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos$ cat root_after.txt
+root
+512
+1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+.
+.
+.
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos$ cd ~/myexpos/xfs-interface
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ ./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# copy 3 4 $HOME/myexpos/inode_after.txt
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cat ~/myexpos/inode_after.t
+xt
+1
+root
+512
+0
+0
+-1
+-1
+-1
+5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+0
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+.
+.
+.
+-1
+-1
+-1
+-1
+-1
+-1
+kernel
+-1
+root
+452
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+.
+.
+.
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ ./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# copy 2 2 $HOME/myexpos/freelist_after.txt
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cat ~/myexpos/freelist_after.txt
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+.
+.
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$
