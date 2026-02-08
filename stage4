@@ -1,0 +1,27 @@
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ nano oddnos.spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ cd ~/myexpos/spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl$ ./spl spl_progs/oddnos.spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl$ ls spl_progs
+helloworld.xsm  numbers1to20.xsm  oddnos.spl  oddnos.xsm
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl$ cd ~/myexpos/xfs-interface
+./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# fdisk
+Formatting Complete. "disk.xfs" created.
+# load --os ../spl/spl_progs/oddnos.xsm 0
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cd ~/myexpos/xsm
+./xsm
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+Machine is halting.
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xsm$
