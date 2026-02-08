@@ -1,0 +1,38 @@
+aiswarya@DESKTOP-DNJ5TJ4:~$ cd myexpos/spl/spl_progs
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ nano helloworld.xsm
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xsm$ cd ~/myexpos/xfs-interface
+./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# fdisk
+Formatting Complete. "disk.xfs" created.
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ ./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# load --os ../spl/spl_progs/numbers1to20.xsm 0
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cd ~/myexpos/xsm
+./xsm
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Machine is halting.
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xsm$
