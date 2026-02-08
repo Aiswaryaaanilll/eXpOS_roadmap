@@ -1,0 +1,44 @@
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ nano odddebug.spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ cd ~/myexpos/spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl$ ./spl spl_progs/odddebug.spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl$ cd ~/myexpos/xfs-interface
+./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# fdisk
+Formatting Complete. "disk.xfs" created.
+# load --os ../spl/spl_progs/odddebug.xsm 0
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cd ~/myexpos/xsm
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xsm$ ./xsm --debug
+Previous instruction at IP = 530: BRKP
+Mode: KERNEL     PID: -1
+Next instruction at IP = 532, Page No. = 1: JMP 534
+debug> reg
+R0: 1   R1:     R2:     R3:     R4:
+R5:     R6:     R7:     R8:     R9:
+R10:    R11:    R12:    R13:    R14:
+R15:    R16: 1  R17: 0  R18:    R19:
+P0:     P1:     P2:     P3:
+BP:     SP:     IP: 532 PTBR:   PTLR:
+EIP:    EC:     EPN:    EMA:
+debug> mem 1
+Page: 1
+Written to file mem
+debug> s
+Previous instruction at IP = 532: JMP 534
+debug> c
+Previous instruction at IP = 530: BRKP
+Mode: KERNEL     PID: -1
+Next instruction at IP = 532, Page No. = 1: JMP 534
+debug> c
+Previous instruction at IP = 530: BRKP
+Mode: KERNEL     PID: -1
+Next instruction at IP = 532, Page No. = 1: JMP 534
+debug> c
+Previous instruction at IP = 530: BRKP
+Mode: KERNEL     PID: -1
+Next instruction at IP = 532, Page No. = 1: JMP 534
+debug>
+Mode: KERNEL     PID: -1
+Next instruction at IP = 534, Page No. = 1: MOV R16,R0
