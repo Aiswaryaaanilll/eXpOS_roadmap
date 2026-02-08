@@ -1,0 +1,20 @@
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ cd ~/myexpos/spl/spl_progs
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ nano sumsq.spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ cd ~/myexpos/spl
+./spl spl_progs/sumsq.spl
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl$ ls spl_progs
+helloworld.xsm    oddnos.spl  sumsq.spl
+numbers1to20.xsm  oddnos.xsm  sumsq.xsm
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl$ cd ~/myexpos/xfs-interface
+./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# fdisk
+Formatting Complete. "disk.xfs" created.
+# load --os ../spl/spl_progs/sumsq.xsm 0
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cd ~/myexpos/xsm
+./xsm
+2870
+Machine is halting.
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xsm$
