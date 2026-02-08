@@ -1,0 +1,13 @@
+aiswarya@DESKTOP-DNJ5TJ4:~$ cd myexpos/spl/spl_progs
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ nano helloworld.xsm
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/spl/spl_progs$ cd $HOME/myexpos/xfs-interface
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ ./xfs-interface
+Unix-XFS Interace Version 2.0.
+Type "help" for getting a list of commands.
+# load --os $HOME/myexpos/spl/spl_progs/helloworld.xsm
+# exit
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xfs-interface$ cd $HOME/myexpos/xsm
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xsm$ ./xsm
+HELLO_WORLD
+Machine is halting.
+aiswarya@DESKTOP-DNJ5TJ4:~/myexpos/xsm$
